@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">Verbindungsstatistik</string>
+    <string name="channel_description_background">Laufende Statistik eines eingerichteten PIA-VPN</string>
+    <string name="channel_name_status">Änderungen des Verbindungs-IrStatus</string>
+    <string name="channel_description_status">Statusänderungen des PIA-VPN (Verbinden, Authentifizieren, ...)</string>
+    <string name="state_connecting">Verbindung wird hergestellt</string>
+    <string name="state_wait">Warte auf Antwort des Servers</string>
+    <string name="state_auth">Authentifizierung</string>
+    <string name="state_get_config">Client-Konfiguration wird abgerufen</string>
+    <string name="state_exiting">Getrennt</string>
+    <string name="state_disconnected">Trennen</string>
+    <string name="state_assign_ip">IP-Adressen werden zugewiesen</string>
+    <string name="state_add_routes">Routen werden hinzugefügt</string>
+    <string name="state_connected">Mit VPN verbunden</string>
+    <string name="state_reconnecting">Wiederverbinden</string>
+    <string name="state_noprocess">Getrennt</string>
+    <string name="state_resolve">Hostnamen werden aufgelöst</string>
+    <string name="state_tcp_connect">Verbindung (TCP) wird hergestellt</string>
+    <string name="state_auth_failed">Authentifizierung fehlgeschlagen</string>
+    <string name="state_nonetwork">Warte auf verwendbares Netzwerk</string>
+    <string name="state_gen_config">Konfiguration wird erzeugt</string>
+    <string name="state_waitconnectretry">Zwischen Verbindungsversuchen %s Sekunden warten</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">VPN wiederaufnehmen</string>
+    <string name="pauseVPN">VPN pausieren</string>
+    <string name="building_configration">Konfiguration wird erstellt ...</string>
+    <string name="state_waitorbot">Warte auf Start von Orbot ...</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Strings that do not show up in the ui and do not need to be translated -->
+<resources>
+
+    <string name="no_keystore_cert_selected" translatable="false">You must select a User certificate</string>
+    <string name="no_error_found" translatable="false">No error found</string>
+    <string name="ipv4_format_error" translatable="false">Error parsing the IPv4 address</string>
+    <string name="custom_route_format_error" translatable="false">Error parsing the custom routes</string>
+    <string name="route_rejected" translatable="false">Route rejected by Android</string>
+    <string name="tun_error_helpful" translatable="false">On some custom ICS images the permission on /dev/tun might be wrong, or the tun module might be missing completely. For CM9 images try the fix ownership option under general settings</string>
+    <string name="tun_open_error" translatable="false">Failed to open the tun interface</string>
+    <string name="error" translatable="false">"Error: "</string>
+    <string name="last_openvpn_tun_config" translatable="false">Last interface configuration from OpenVPN:</string>
+    <string name="local_ip_info" translatable="false">Local IPv4: %1$s/%2$d IPv6: %3$s MTU: %4$d</string>
+    <string name="dns_server_info" translatable="false">DNS Server: %s</string>
+    <string name="dns_domain_info" translatable="false">DNS Domain: %s</string>
+    <string name="routes_info" translatable="false">Routes: %s</string>
+    <string name="routes_info6" translatable="false">Routes IPv6: %s</string>
+    <string name="ip_not_cidr" translatable="false">Got interface information %1$s and %2$s, assuming second address is peer address of remote. Using /32 netmask for local IP. Mode given by OpenVPN is \"%3$s\".</string>
+    <string name="route_not_cidr" translatable="false">Cannot make sense of %1$s and %2$s as IP route with CIDR netmask, using /32 as netmask.</string>
+    <string name="route_not_netip" translatable="false">Corrected route %1$s/%2$s to %3$s/%2$s</string>
+    <string name="keychain_access" translatable="false">Cannot access the Android Keychain Certificates. This can be caused by a firmware upgrade or by restoring a backup of the app/app settings. Please edit the VPN and reselect the certificate under basic settings to recreate the permission to access the certificate.</string>
+    <string name="no_vpn_support_image" translatable="false">Your image does not support the VPNService API, sorry :(</string>
+    <string name="opentun_no_ipaddr" translatable="false">Refusing to open tun device without IP information</string>
+    <string name="error_empty_username" translatable="false">The username must not be empty.</string>
+    <string name="pkcs12_file_encryption_key" translatable="false">PKCS12 File Encryption Key</string>
+    <string name="private_key_password" translatable="false">Private Key Password</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="cert_from_keystore" translatable="false">Got certificate \'%s\' from Keystore</string>
+    <string name="netstatus" translatable="false">Network Status: %s</string>
+    <string name="keychain_nocacert" translatable="false">No CA Certificate returned while reading from Android keystore. Auhtentication will probably fail.</string>
+    <string name="mobile_info" translatable="false">Running on %1$s (%2$s) %3$s, Android API %4$d</string>
+    <!--{"app_version": "3.0 (170)","device":"SM-T820 (msm8996) samsung","os_version":"Android API 24"}-->
+    <string name="mobile_info_update" translatable="false">sysinfo\n{\"app_version\": \"%10$s (%9$s)\", \"device\":\"%1$s (%2$s) %3$s %5$s (%6$s)\", \"os_version\": \"Android API (%4$s)\"}\n</string>
+    <string name="error_rsa_sign" translatable="false">Error signing with Android keystore key %1$s: %2$s</string>
+    <string name="warn_no_dns" translatable="false">No DNS servers being used. Name resolution may not work. Consider setting custom DNS Servers</string>
+    <string name="dns_add_error" translatable="false">Could not add DNS Server \"%1$s\", rejected by the system: %2$s</string>
+    <string name="getproxy_error" translatable="false">Error getting proxy settings: %s</string>
+    <string name="using_proxy" translatable="false">Using proxy %1$s %2$s</string>
+    <string name="minidump_generated" translatable="false">OpenVPN crashed unexpectedly. Please consider using the send Minidump option in the main menu</string>
+    <string name="statusline_bytecount" translatable="false">↓%2$s %1$s - ↑%4$s %3$s</string>
+    <string name="notifcation_title_notconnect" translatable="false">Not connected</string>
+    <string name="jelly_keystore_alphanumeric_bug" translatable="false">Some versions of Android 4.1 have problems if the name of the keystore certificate contains non alphanumeric characters (like spaces, underscores or dashes). Try to reimport the certificate without special characters</string>
+    <string name="copyright_others" translatable="false">This program uses the following components</string>
+    <string name="keyChainAccessError" translatable="false">Cannot access the Android Keychain Certificates. This can be caused by a firmware upgrade or by restoring a backup of the app/app settings. Please edit the VPN and reselect the certificate under basic settings to recreate the permission to access the certificate</string>
+    <string name="remote_no_server_selected" translatable="false">You need to define and enable at least one remote server.</string>
+    <string name="unhandled_exception" translatable="false">Unhandled exception: %1$s\n\n%2$s</string>
+    <string name="unhandled_exception_context" translatable="false">%3$s: %1$s\n\n%2$s</string>
+    <string name="debug_build" translatable="false">debug build</string>
+    <string name="official_build" translatable="false">official build</string>
+    <string name="start_vpn_title" translatable="false">Connecting to VPN %s</string>
+    <string name="start_vpn_ticker" translatable="false">Connecting to VPN %s</string>
+    <string name="ip_add_error" translatable="false">Could not configure IP Address \"%1$s\", rejected by the system: %2$s</string>
+    <string name="routes_info_incl" translatable="false">Routes: %1$s %2$s</string>
+    <string name="routes_info_excl" translatable="false">Routes excluded: %1$s %2$s</string>
+    <string name="allowed_vpn_apps_info" translatable="false">Allowed VPN apps: %1$s</string>
+    <string name="disallowed_vpn_apps_info" translatable="false">Disallowed VPN apps: %1$s</string>
+    <string name="app_no_longer_exists" translatable="false">Package %s is no longer installed, removing it from app allow/disallow list</string>
+    <string name="ip_looks_like_subnet" translatable="false">Vpn topology \"%3$s\" specified but ifconfig %1$s %2$s looks more like an IP address with a network mask. Assuming \"subnet\" topology.</string>
+    <string name="title_cancel" translatable="false">Cancel Confirmation</string>
+    <string name="cancel_connection" translatable="false">Disconnect</string>
+    <string name="cancel_connection_long" translatable="false">Disconnect VPN</string>
+    <string name="cancel_connection_query" translatable="false">Disconnect the connected VPN/cancel the connection attempt?</string>
+    <string name="state_userpause" translatable="false">VPN pause requested by user</string>
+    <string name="state_screenoff" translatable="false">VPN paused - screen off</string>
+    <string name="routes_debug" translatable="false">VpnService routes installed: %1$s %2$s</string>
+    <string name="built_by" translatable="false">built by %s</string>
+    <string name="mobile_info_extended" translatable="false">Running on %1$s (%2$s) %3$s, Android API %4$d, version %5$s, %6$s</string>
+    <string name="screenoff_summary" translatable="false">"Pause VPN when screen is off and less than 64 kB transferred data in 60s. When the \"Persistent Tun\" option is enabled pausing the VPN will leave your device with NO network connectivity. Without the \"Persistent Tun\" option the device will have no VPN connection/protection.</string>
+    <string name="screenoff_title" translatable="false">Pause VPN connection after screen off</string>
+    <string name="screenoff_pause" translatable="false">Pausing connection in screen off state: less than %1$s in %2$ss</string>
+    <string name="screen_nopersistenttun" translatable="false">Warning: Persistent tun not enabled for this VPN. Traffic will use the normal Internet connection when the screen is off.</string>
+    <string name="cannotparsecert" translatable="false">Cannot display certificate information</string>
+    <string name="months_left" translatable="false">%d months left</string>
+    <string name="no_allowed_app" translatable="false">No allowed app added. Adding ourselves (%s) to have at least one app in the allowed app list to not allow all apps</string>
+    <string name="permission_revoked" translatable="false">VPN permission revoked by OS (e.g. other VPN program started), stopping VPN</string>
+    <string name="service_restarted" translatable="false">Restarting OpenVPN Service (App crashed probably crashed or killed for memory pressure)</string>
+    <string name="ignore_multicast_route" translatable="false">Ignoring multicast route: %s</string>
+    <string name="abi_mismatch" translatable="false">Preferred native ABI precedence of this device (%1$s) and ABI reported by native libraries (%2$s) mismatch</string>
+    <string name="reread_log" translatable="false">Reread (%d) log items from log cache file</string>
+
+    <string name="bits_per_second" translatable="false">%.0f bit/s</string>
+    <string name="kbits_per_second" translatable="false">%.1f kbit/s</string>
+    <string name="mbits_per_second" translatable="false">%.1f Mbit/s</string>
+    <string name="gbits_per_second" translatable="false">%.1f Gbit/s</string>
+    <string name="volume_byte" translatable="false">%.0f B</string>
+    <string name="volume_kbyte" translatable="false">%.1f kB</string>
+    <string name="volume_mbyte" translatable="false">%.1f MB</string>
+    <string name="volume_gbyte" translatable="false">%.1f GB</string>
+    <string name="no_ca_cert_selected" translatable="false">You must select a CA certificate</string>
+    <string name="tls_remote_deprecated" translatable="false">tls-remote (DEPRECATED)</string>
+    <string name="missing_tlsauth" translatable="false">tls-auth file is missing</string>
+    <string name="missing_certificates" translatable="false">Missing user certificate or user certifcate key file</string>
+    <string name="deprecated_tls_remote" translatable="false">Config uses option tls-remote that was deprecated in 2.3 and finally removed in 2.4</string>
+    <string name="missing_ca_certificate" translatable="false">Missing CA certificate</string>
+    <plurals name="months_left">
+        <item quantity="one">One month left</item>
+        <item quantity="other">%d months left</item>
+    </plurals>
+    <plurals name="days_left">
+        <item quantity="one">One day left</item>
+        <item quantity="other">%d days left</item>
+    </plurals>
+    <plurals name="hours_left">
+        <item quantity="one">One hour left</item>
+        <item quantity="other">%d hours left</item>
+    </plurals>
+    <plurals name="minutes_left">
+        <item quantity="one">One minute left</item>
+        <item quantity="other">%d minutes left</item>
+    </plurals>
+
+    <string name="unknown_state" translatable="false">Unknown state</string>
+    <string name="openvpn3_nostatickeys" translatable="false">The OpenVPN 3 C++ implementation does not support static keys. Please change to OpenVPN 2.x under general settings.</string>
+    <string name="openvpn3_pkcs12" translatable="false">Using PKCS12 files directly with OpenVPN 3 C++ implementation is not supported. Please import the pkcs12 files into the Android keystore or change to OpenVPN 2.x under general settings.</string>
+
+</resources>

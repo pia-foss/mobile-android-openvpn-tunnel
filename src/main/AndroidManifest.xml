@@ -1,0 +1,34 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="de.blinkt.openvpn">
+    <!-- shares package name with ICSOpenVPN to enable directly copying de.blinkt.openvpn files between projects -->
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <service
+            android:name="de.blinkt.openvpn.core.OpenVPNService"
+            android:permission="android.permission.BIND_VPN_SERVICE"
+            android:foregroundServiceType="systemExempted"
+            android:process=":openvpn"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.VpnService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="de.blinkt.openvpn.core.OpenVPNStatusService"
+            android:exported="false"
+            android:process=":openvpn" />
+        <service
+            android:name="com.privateinternetaccess.android.PIAStatusService"
+            android:exported="false"
+            android:process=":openvpn" />
+        <activity android:name=".activities.DisconnectVPN"/>
+
+    </application>
+
+
+
+</manifest>

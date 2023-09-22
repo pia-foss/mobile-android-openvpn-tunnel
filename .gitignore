@@ -1,0 +1,7 @@
+*.iml
+build
+libs
+obj
+ovpnlibs
+.externalNativeBuild
+.cxx/

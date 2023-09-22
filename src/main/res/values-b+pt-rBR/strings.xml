@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">Estatísticas de conexão</string>
+    <string name="channel_description_background">Estatísticas em andamento do VPN PIA estabelecido</string>
+    <string name="channel_name_status">Mudanças do IrStatus da conexão</string>
+    <string name="channel_description_status">Mudanças de status do VPN PIA (Conectando, autenticando...)</string>
+    <string name="state_connecting">Conectando</string>
+    <string name="state_wait">Aguardando a resposta do servidor</string>
+    <string name="state_auth">Autenticando</string>
+    <string name="state_get_config">Obtendo configuração do cliente</string>
+    <string name="state_exiting">Desconectado</string>
+    <string name="state_disconnected">Desconectar</string>
+    <string name="state_assign_ip">Atribuindo endereços de IP</string>
+    <string name="state_add_routes">Adicionando rotas</string>
+    <string name="state_connected">Conectado ao VPN</string>
+    <string name="state_reconnecting">Reconectando</string>
+    <string name="state_noprocess">Desconectado</string>
+    <string name="state_resolve">Resolvendo nomes de host</string>
+    <string name="state_tcp_connect">Conectando (TCP)</string>
+    <string name="state_auth_failed">A autenticação falhou</string>
+    <string name="state_nonetwork">Esperando por uma rede utilizável</string>
+    <string name="state_gen_config">Gerando configuração</string>
+    <string name="state_waitconnectretry">Aguardando %s segundos entre tentativas de conexão</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">Voltar ao VPN</string>
+    <string name="pauseVPN">Pausar VPN</string>
+    <string name="building_configration">Construindo configuração...</string>
+    <string name="state_waitorbot">Aguardando o Orbot iniciar...</string>
+</resources>

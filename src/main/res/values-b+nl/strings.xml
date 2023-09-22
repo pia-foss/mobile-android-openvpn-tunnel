@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">Verbindingsstatistieken</string>
+    <string name="channel_description_background">Lopende statistieken van vastgestelde PIA VPN</string>
+    <string name="channel_name_status">Wijzigingen Verbinding IrStatus</string>
+    <string name="channel_description_status">Statuswijzigingen van de PIA VPN (Verbinding, authenticatie…)</string>
+    <string name="state_connecting">Verbinden</string>
+    <string name="state_wait">Wachten op antwoord van server</string>
+    <string name="state_auth">Authenticatie</string>
+    <string name="state_get_config">Clientconfiguratie ophalen</string>
+    <string name="state_exiting">Verbinding verbroken</string>
+    <string name="state_disconnected">Verbinding verbreken</string>
+    <string name="state_assign_ip">IP-adressen toewijzen</string>
+    <string name="state_add_routes">Routes toevoegen</string>
+    <string name="state_connected">Verbonden met VPN</string>
+    <string name="state_reconnecting">Opnieuw verbinden</string>
+    <string name="state_noprocess">Verbinding verbroken</string>
+    <string name="state_resolve">Hostnames oplossen</string>
+    <string name="state_tcp_connect">Verbinden (TCP)</string>
+    <string name="state_auth_failed">Authenticatie mislukt</string>
+    <string name="state_nonetwork">Wachten op bruikbaar netwerk</string>
+    <string name="state_gen_config">Configuratie genereren</string>
+    <string name="state_waitconnectretry">Wacht %s seconden en probeer opnieuw verbinding te maken</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">VPN hervatten</string>
+    <string name="pauseVPN">VPN pauzeren</string>
+    <string name="building_configration">Configuratie opbouwen…</string>
+    <string name="state_waitorbot">Wachten tot Orbot is gestart…</string>
+</resources>

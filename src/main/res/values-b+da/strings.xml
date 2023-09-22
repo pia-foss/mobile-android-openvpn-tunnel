@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">Forbindelsesstatistik</string>
+    <string name="channel_description_background">Løbende statistikker over etableret PIA VPN</string>
+    <string name="channel_name_status">Forbindelsens lrStatus ændres</string>
+    <string name="channel_description_status">Statusændringer i PIA VPN (Tilslutning, godkendelse, ...)</string>
+    <string name="state_connecting">Forbinder</string>
+    <string name="state_wait">Venter på serversvar</string>
+    <string name="state_auth">Bekræfter</string>
+    <string name="state_get_config">Indhenter klientkonfiguration</string>
+    <string name="state_exiting">Afbrudt</string>
+    <string name="state_disconnected">Afbryd</string>
+    <string name="state_assign_ip">Tildele IP-adresser</string>
+    <string name="state_add_routes">Tilføjer ruter</string>
+    <string name="state_connected">Forbundet til VPN</string>
+    <string name="state_reconnecting">Forbinder igen</string>
+    <string name="state_noprocess">Afbrudt</string>
+    <string name="state_resolve">Løsning af værtsnavne</string>
+    <string name="state_tcp_connect">Forbinder (TCP)</string>
+    <string name="state_auth_failed">Autentifikation mislykkes</string>
+    <string name="state_nonetwork">Venter på brugbart netværk</string>
+    <string name="state_gen_config">Genererer konfiguration</string>
+    <string name="state_waitconnectretry">Venter %s sekunder mellem forbindelsesforsøg</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">Genoptag VPN</string>
+    <string name="pauseVPN">Sæt VPN på pause</string>
+    <string name="building_configration">Bygger konfiguration...</string>
+    <string name="state_waitorbot">Venter på at Orbot starter...</string>
+</resources>

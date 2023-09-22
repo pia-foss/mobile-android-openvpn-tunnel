@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">สถิติการเชื่อมต่อ</string>
+    <string name="channel_description_background">สถิติปัจจุบันของ PIA VPN ที่ก่อตั้ง</string>
+    <string name="channel_name_status">ความเปลี่ยนแปลง lrStatus การเชื่อมต่อ</string>
+    <string name="channel_description_status">ความเปลี่ยนแปลงสถานะของ PIA VPN (การเชื่อมต่อ การยืนยัน…)</string>
+    <string name="state_connecting">กำลังเชื่อมต่อ</string>
+    <string name="state_wait">กำลังรอให้เซิร์ฟเวอร์ตอบกลับ</string>
+    <string name="state_auth">กำลังยืนยัน</string>
+    <string name="state_get_config">กำลังรับการกำหนดค่าของไคลเอนต์</string>
+    <string name="state_exiting">เลิกเชื่อมต่อแล้ว</string>
+    <string name="state_disconnected">เลิกเชื่อมต่อ</string>
+    <string name="state_assign_ip">กำลังจัดสรรที่อยู่ IP</string>
+    <string name="state_add_routes">กำลังเพิ่มรูท</string>
+    <string name="state_connected">เชื่อมต่อไปยัง VPN แล้ว</string>
+    <string name="state_reconnecting">กำลังเชื่อมต่อใหม่</string>
+    <string name="state_noprocess">เลิกเชื่อมต่อแล้ว</string>
+    <string name="state_resolve">กำลังแก้ปัญหาชื่อโฮสต์</string>
+    <string name="state_tcp_connect">กำลังเชื่อมต่อ (TCP)</string>
+    <string name="state_auth_failed">ยืนยันไม่สำเร็จ</string>
+    <string name="state_nonetwork">กำลังรอเครือข่ายที่ใช้ได้</string>
+    <string name="state_gen_config">กำลังสร้างการกำหนดค่า</string>
+    <string name="state_waitconnectretry">กำลังรอ %s วินาทีระหว่างความพยายามเชื่อมต่อ</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">ใช้ VPN ต่อ</string>
+    <string name="pauseVPN">หยุด VPN ชั่วคราว</string>
+    <string name="building_configration">กำลังสร้างการกำหนดค่า…</string>
+    <string name="state_waitorbot">กำลังรอให้ Orbot เริ่มต้น…</string>
+</resources>

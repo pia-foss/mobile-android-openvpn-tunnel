@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">Statistiche di connessione</string>
+    <string name="channel_description_background">Statistiche in corso di VPN PIA stabilito</string>
+    <string name="channel_name_status">Modifiche lrStatus di connessione</string>
+    <string name="channel_description_status">Modifiche stato PIA VPN (connessione, autenticazione...)</string>
+    <string name="state_connecting">Connessione</string>
+    <string name="state_wait">In attesa della risposta del server</string>
+    <string name="state_auth">Autenticazione</string>
+    <string name="state_get_config">Ottenimento della configurazione client</string>
+    <string name="state_exiting">Disconnesso</string>
+    <string name="state_disconnected">Disconnetti</string>
+    <string name="state_assign_ip">Assegnazione indirizzi IP</string>
+    <string name="state_add_routes">Aggiunta routes</string>
+    <string name="state_connected">Connesso a VPN</string>
+    <string name="state_reconnecting">Riconnessione</string>
+    <string name="state_noprocess">Disconnesso</string>
+    <string name="state_resolve">Risoluzione nomi host</string>
+    <string name="state_tcp_connect">Connessione (TCP)</string>
+    <string name="state_auth_failed">Autenticazione non riuscita</string>
+    <string name="state_nonetwork">In attesa di rete utilizzabile</string>
+    <string name="state_gen_config">Creazione della configurazione</string>
+    <string name="state_waitconnectretry">Attesa di %s secondi tra i tentativi di riconnessione</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">Riprendi VPN</string>
+    <string name="pauseVPN">Metti in pausa VPN</string>
+    <string name="building_configration">Creando configurazione...</string>
+    <string name="state_waitorbot">In attesa dell\'avvio di Orbot...</string>
+</resources>

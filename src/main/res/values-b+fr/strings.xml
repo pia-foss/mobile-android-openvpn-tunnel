@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">Statistiques de connexion</string>
+    <string name="channel_description_background">Statistiques en cours du VPN PIA établi</string>
+    <string name="channel_name_status">Changements lrStatus de connexion</string>
+    <string name="channel_description_status">Changements d\'état du VPN PIA (connexion, authentification…)</string>
+    <string name="state_connecting">Connexion</string>
+    <string name="state_wait">En attente de la réponse du serveur</string>
+    <string name="state_auth">Authentification</string>
+    <string name="state_get_config">Récupération de la configuration du client</string>
+    <string name="state_exiting">Déconnecté</string>
+    <string name="state_disconnected">Déconnecter</string>
+    <string name="state_assign_ip">Assignation des adresses IP</string>
+    <string name="state_add_routes">Ajout de routes</string>
+    <string name="state_connected">Connecté au VPN</string>
+    <string name="state_reconnecting">Reconnexion</string>
+    <string name="state_noprocess">Déconnecté</string>
+    <string name="state_resolve">Résolution des noms de domaine</string>
+    <string name="state_tcp_connect">Connexion (TCP)</string>
+    <string name="state_auth_failed">Échec de l\'authentification</string>
+    <string name="state_nonetwork">En attente d\'un réseau exploitable</string>
+    <string name="state_gen_config">Génération de la configuration</string>
+    <string name="state_waitconnectretry">Attente de %s secondes entre les tentatives de connexion</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">Réactiver le VPN</string>
+    <string name="pauseVPN">Désactiver le VPN</string>
+    <string name="building_configration">Création de la configuration…</string>
+    <string name="state_waitorbot">En attente de lancement d\'Orbot…</string>
+</resources>

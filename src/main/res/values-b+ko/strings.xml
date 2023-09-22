@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">연결 통계</string>
+    <string name="channel_description_background">수립된 PIA VPN의 진행 중 통계</string>
+    <string name="channel_name_status">연결 lrStatus 변경</string>
+    <string name="channel_description_status">PIA VPN의 상태 변경 (연결하는 중, 인증하는 중 등)</string>
+    <string name="state_connecting">연결하는 중</string>
+    <string name="state_wait">서버 응답을 기다리는 중</string>
+    <string name="state_auth">인증하는 중</string>
+    <string name="state_get_config">클라이언트 구성을 확인하는 중</string>
+    <string name="state_exiting">연결이 해제됨</string>
+    <string name="state_disconnected">연결 해제</string>
+    <string name="state_assign_ip">IP 주소를 할당하는 중</string>
+    <string name="state_add_routes">루트를 추가하는 중</string>
+    <string name="state_connected">VPN에 연결됨</string>
+    <string name="state_reconnecting">다시 연결하는 중</string>
+    <string name="state_noprocess">연결이 해제됨</string>
+    <string name="state_resolve">호스트 이름을 해석하는 중</string>
+    <string name="state_tcp_connect">연결하는 중 (TCP)</string>
+    <string name="state_auth_failed">인증 실패</string>
+    <string name="state_nonetwork">사용 가능한 네트워크를 기다리는 중</string>
+    <string name="state_gen_config">구성을 생성하는 중</string>
+    <string name="state_waitconnectretry">연결 시도 사이에 %s초를 기다리는 중</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">VPN 재개</string>
+    <string name="pauseVPN">VPN 일시 중지</string>
+    <string name="building_configration">구성을 구축하는 중...</string>
+    <string name="state_waitorbot">Orbot이 시작하기를 기다리는 중...</string>
+</resources>

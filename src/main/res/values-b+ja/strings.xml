@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">接続統計データ</string>
+    <string name="channel_description_background">確立されたPIA VPNの現統計データ</string>
+    <string name="channel_name_status">接続IrStatusの変化</string>
+    <string name="channel_description_status">PIA VPNのステータス変化（接続中、認証中など）</string>
+    <string name="state_connecting">接続中</string>
+    <string name="state_wait">サーバーの応答を待機中</string>
+    <string name="state_auth">認証中</string>
+    <string name="state_get_config">クライアントコンフィギュレーションを取得中</string>
+    <string name="state_exiting">切断されました</string>
+    <string name="state_disconnected">切断する</string>
+    <string name="state_assign_ip">IPアドレスを割り当て中</string>
+    <string name="state_add_routes">ルートを追加中</string>
+    <string name="state_connected">VPNに接続されました</string>
+    <string name="state_reconnecting">再接続中</string>
+    <string name="state_noprocess">切断されました</string>
+    <string name="state_resolve">ホストネームを解決中</string>
+    <string name="state_tcp_connect">接続中（TCP）</string>
+    <string name="state_auth_failed">認証に失敗しました</string>
+    <string name="state_nonetwork">利用できるネットワークを待機中</string>
+    <string name="state_gen_config">コンフィギュレーションを生成中</string>
+    <string name="state_waitconnectretry">%s秒間隔で接続を待機</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">VPNを再開</string>
+    <string name="pauseVPN">VPNを一時停止</string>
+    <string name="building_configration">コンフィギュレーションを構築中</string>
+    <string name="state_waitorbot">Orbotの起動を待機中</string>
+</resources>

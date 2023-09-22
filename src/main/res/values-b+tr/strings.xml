@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">Bağlantı istatistikleri</string>
+    <string name="channel_description_background">Kurulu PIA VPN\'in mevcut istatistikleri</string>
+    <string name="channel_name_status">lrStatus bağlantısı değişiklikleri</string>
+    <string name="channel_description_status">PIA VPN durumundaki değişiklikler (Bağlanıyor, doğrulanıyor,…)</string>
+    <string name="state_connecting">Bağlanıyor</string>
+    <string name="state_wait">Sunucunun yanıt vermesi bekleniyor</string>
+    <string name="state_auth">Doğrulanıyor</string>
+    <string name="state_get_config">İstemci yapılandırması alınıyor</string>
+    <string name="state_exiting">Bağlantı kesildi</string>
+    <string name="state_disconnected">Bağlantıyı kes</string>
+    <string name="state_assign_ip">IP adresleri atanıyor</string>
+    <string name="state_add_routes">Yollar ekleniyor</string>
+    <string name="state_connected">VPN\'e bağlandı</string>
+    <string name="state_reconnecting">Yeniden bağlanıyor</string>
+    <string name="state_noprocess">Bağlantı kesildi</string>
+    <string name="state_resolve">Ana makine adı çözümleniyor</string>
+    <string name="state_tcp_connect">Bağlanıyor (TCP)</string>
+    <string name="state_auth_failed">Doğrulama başarısız</string>
+    <string name="state_nonetwork">Kullanılabilir ağ bekleniyor</string>
+    <string name="state_gen_config">Yapılandırma oluşturuluyor</string>
+    <string name="state_waitconnectretry">Bağlanma denemeleri arasında %s saniye bekleniyor</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">VPN\'i devam ettir</string>
+    <string name="pauseVPN">VPN\'i duraklat</string>
+    <string name="building_configration">Yapılandırma oluşturuluyor...</string>
+    <string name="state_waitorbot">Orbot\'un başlaması bekleniyor...</string>
+</resources>

@@ -1,0 +1,72 @@
+apply plugin: 'com.android.library'
+
+repositories {
+    jcenter()
+    google()
+}
+
+android {
+
+    sourceSets {
+        main {
+            assets.srcDirs = ['src/main/assets', 'build/ovpnassets']
+            jniLibs.srcDirs = ['ovpnlibs/jniLibs']
+
+            jni.srcDirs = [] //disable automatic ndk-build
+        }
+    }
+
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion 16
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+
+        externalNativeBuild {
+            cmake {
+                arguments '-DANDROID_TOOLCHAIN=clang',
+                        '-DANDROID_STL=c++_static'
+            }
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "cpp/CMakeLists.txt"
+        }
+    }
+
+    flavorDimensions "implementation"
+
+    productFlavors {
+        normal {
+            dimension "implementation"
+            buildConfigField 'boolean', 'openvpn3', 'true'
+        }
+    }
+    ndkVersion '24.0.8215888'
+}
+
+dependencies {
+    implementation 'com.android.support:support-annotations:' + rootProject.supportLibVersion
+    implementation 'com.android.support:appcompat-v7:' + rootProject.supportLibVersion
+
+    implementation 'com.madgag.spongycastle:core:1.54.0.0'
+    implementation 'junit:junit:4.12'
+}
+
+// Ensure native build is run before assets, so assets are ready to be merged into the apk
+android.libraryVariants.all { variant ->
+    variant.mergeAssets.dependsOn(variant.externalNativeBuildTasks)
+}

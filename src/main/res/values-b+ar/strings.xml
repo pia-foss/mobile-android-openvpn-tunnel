@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">إحصائيات الاتصال</string>
+    <string name="channel_description_background">إحصائيات مستمرة لخدمة PIA VPN التي تم إنشائها</string>
+    <string name="channel_name_status">تغييرات حالة الاتصال</string>
+    <string name="channel_description_status">تغييرات حالة PIA VPN (الاتصال والمصادقة، ...)</string>
+    <string name="state_connecting">جارٍ الاتصال</string>
+    <string name="state_wait">قيد انتظار رد الخادم</string>
+    <string name="state_auth">جارٍ المصادقة</string>
+    <string name="state_get_config">جارٍ الحصول على تكوين العميل</string>
+    <string name="state_exiting">غير متصل</string>
+    <string name="state_disconnected">قطع الاتصال</string>
+    <string name="state_assign_ip">جارٍ تعيين عناوين IP</string>
+    <string name="state_add_routes">جارٍ إضافة المسارات</string>
+    <string name="state_connected">تم الاتصال بخدمة VPN</string>
+    <string name="state_reconnecting">جارٍ إعادة الاتصال</string>
+    <string name="state_noprocess">غير متصل</string>
+    <string name="state_resolve">جارٍ حل أسماء المضيفين</string>
+    <string name="state_tcp_connect">جارٍ الاتصال (TCP)</string>
+    <string name="state_auth_failed">تعذّرت المصادقة</string>
+    <string name="state_nonetwork">قيد انتظار شبكة صالحة</string>
+    <string name="state_gen_config">جارٍ إنتاج التكوين</string>
+    <string name="state_waitconnectretry">يتم الانتظار %s ثوان بين محاولات الاتصال</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">استئناف VPN</string>
+    <string name="pauseVPN">إيقاف VPN مؤقتًأ</string>
+    <string name="building_configration">جارٍ بناء التكوين…</string>
+    <string name="state_waitorbot">قيد انتظار بدء Orbot…</string>
+</resources>

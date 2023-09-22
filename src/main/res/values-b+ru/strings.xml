@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">Статистика подключения</string>
+    <string name="channel_description_background">Текущая статистика установленного VPN-подключения PIA</string>
+    <string name="channel_name_status">Изменения статуса подключения IrStatus</string>
+    <string name="channel_description_status">Изменения статуса VPN-подключения PIA (подключение, аутентификация, ...)</string>
+    <string name="state_connecting">Подключение</string>
+    <string name="state_wait">Ждем ответа сервера</string>
+    <string name="state_auth">Аутентификация</string>
+    <string name="state_get_config">Получаем конфигурацию клиента</string>
+    <string name="state_exiting">Отключено</string>
+    <string name="state_disconnected">Отключить</string>
+    <string name="state_assign_ip">Раздаем IP-адреса</string>
+    <string name="state_add_routes">Добавляем маршруты</string>
+    <string name="state_connected">Подключено к VPN</string>
+    <string name="state_reconnecting">Переподключение</string>
+    <string name="state_noprocess">Отключено</string>
+    <string name="state_resolve">Преобразовываем имена узлов</string>
+    <string name="state_tcp_connect">Подключение (TCP)</string>
+    <string name="state_auth_failed">Аутентификация не пройдена</string>
+    <string name="state_nonetwork">Ждем пригодной сети</string>
+    <string name="state_gen_config">Создаем конфигурацию</string>
+    <string name="state_waitconnectretry">Ждем %s с между попытками подключения</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">Продолжить VPN</string>
+    <string name="pauseVPN">Приостановить VPN</string>
+    <string name="building_configration">Строим конфигурацию...</string>
+    <string name="state_waitorbot">Ждем запуска Orbot...</string>
+</resources>

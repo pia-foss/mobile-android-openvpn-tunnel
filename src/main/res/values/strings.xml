@@ -1,0 +1,34 @@
+<resources>
+    <string name="channel_name_background">Connection statistics</string>
+    <string name="channel_description_background">Ongoing statistics of established PIA VPN</string>
+    <string name="channel_name_status">Connection lrStatus changes</string>
+    <string name="channel_description_status">Status changes of the PIA VPN (Connecting, authenticating,…)</string>
+    <string name="state_connecting">Connecting</string>
+    <string name="state_wait">Waiting for server reply</string>
+    <string name="state_auth">Authenticating</string>
+    <string name="state_get_config">Getting client configuration</string>
+    <string name="state_exiting">Disconnected</string>
+    <string name="state_disconnected">Disconnect</string>
+    <string name="state_assign_ip">Assigning IP addresses</string>
+    <string name="state_add_routes">Adding routes</string>
+    <string name="state_connected">Connected to VPN</string>
+    <string name="state_reconnecting">Reconnecting</string>
+    <string name="state_noprocess">Disconnected</string>
+    <string name="state_resolve">Resolving host names</string>
+    <string name="state_tcp_connect">Connecting (TCP)</string>
+    <string name="state_auth_failed">Authentication failed</string>
+    <string name="state_nonetwork">Waiting for usable network</string>
+    <string name="state_gen_config">Generating configuration</string>
+    <string name="state_waitconnectretry">Waiting %s seconds between connection attempts</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <string name="session_ipv4string" translatable="false">%1$s</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <string name="session_ipv6string" translatable="false">%1$s</string>
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">Resume VPN</string>
+    <string name="pauseVPN">Pause VPN</string>
+    <string name="building_configration">Building configuration…</string>
+    <string name="state_waitorbot">Waiting for Orbot to start...</string>
+
+</resources>

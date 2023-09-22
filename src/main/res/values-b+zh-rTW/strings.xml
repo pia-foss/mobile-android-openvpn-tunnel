@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<resources>
+    <string name="channel_name_background">連線統計</string>
+    <string name="channel_description_background">已建立 PIA VPN 之持續統計資料</string>
+    <string name="channel_name_status">連線 IrStatus 變動</string>
+    <string name="channel_description_status">PIA VPN 的狀態變動（連線中、驗證中…）</string>
+    <string name="state_connecting">連線中</string>
+    <string name="state_wait">正在等待伺服器回應</string>
+    <string name="state_auth">驗證中</string>
+    <string name="state_get_config">正在擷取用戶端組態</string>
+    <string name="state_exiting">已解除連線</string>
+    <string name="state_disconnected">解除連線</string>
+    <string name="state_assign_ip">正在分配 IP 位址</string>
+    <string name="state_add_routes">正在新增路由</string>
+    <string name="state_connected">已連線至 VPN</string>
+    <string name="state_reconnecting">正在重新連線</string>
+    <string name="state_noprocess">已解除連線</string>
+    <string name="state_resolve">正在解析主機名稱</string>
+    <string name="state_tcp_connect">連線中 (TCP)</string>
+    <string name="state_auth_failed">驗證失敗</string>
+    <string name="state_nonetwork">正在等待可用的網路</string>
+    <string name="state_gen_config">正在產生組態</string>
+    <string name="state_waitconnectretry">在嘗試連線之間等待 %s 秒</string>
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %1$s, this is a formatted text. %1$s is an IP (ei 126.0.1.10)  -->
+    <!-- Please keep the %s, this is a formatted text. %s is a server name.  -->
+    <string name="notifcation_title">%s - privateinternetaccess.com</string>
+    <string name="resumevpn">恢復 VPN</string>
+    <string name="pauseVPN">暫停 VPN</string>
+    <string name="building_configration">正在建立組態…</string>
+    <string name="state_waitorbot">正在等待 Orbot 開始…</string>
+</resources>
