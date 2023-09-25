@@ -1,11 +1,9 @@
-[submodule "openssl"]
+[submodule "cpp/openssl"]
 	path = cpp/openssl
 	url = https://github.com/schwabe/platform_external_openssl.git
-    branch = icsopenvpn
-[submodule "openvpn"]
+[submodule "cpp/openvpn"]
 	path = cpp/openvpn
-    	url = ../cpz_pia-mobile_android_openvpn-android.git
-    	branch = pia_android/2.5.7
+	url = https://github.com/pia-foss/mobile-android-openvpn.git
 [submodule "cpp/lz4"]
 	path = cpp/lz4
 	url = https://github.com/lz4/lz4.git
